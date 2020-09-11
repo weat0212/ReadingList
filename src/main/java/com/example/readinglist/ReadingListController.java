@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/")
 public class ReadingListController {
 
-    private ReadingListRepository readingListRepository;
+    private final ReadingListRepository readingListRepository;
 
     @Autowired
     public ReadingListController(
